@@ -1,0 +1,15 @@
+[
+  "work/adc_v2/tcga/analyze_tcga.py",
+  "work/adc_v2/met/analyse.py",
+  "work/adc_v2/main/ispy.py",
+  "work/adc/uptider_numeric.py",
+  "work/adc_v2/audit/audit_sampling.py",
+  "work/adc_v2/audit/cellularity.py",
+  "work/adc_v6/extend_targets.py",
+  "work/adc_v6/public_cohorts/extract.py",
+  "work/adc_v6/public_cohorts/analyze.py",
+  "work/adc_v6/public_cohorts/ihc_audit.py",
+  "work/adc_v6/public_cohorts/ihc_direction.py",
+  "work/adc_v6/public_cohorts/independent_model_audit.py",
+  "work/adc_v6/functional/analyze_functional.py"
+]

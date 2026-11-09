@@ -1,0 +1,66 @@
+[
+  {
+    "file": "study.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga",
+    "rows": 1,
+    "bytes": 952,
+    "sha256": "9d8a4ea04de98204db613bd64bb189fd0a3c5379caa1308ff550c79e7ece10be",
+    "retrieved_utc": "2026-11-06T17:43:06.716819+00:00"
+  },
+  {
+    "file": "profile.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna",
+    "rows": 1,
+    "bytes": 766,
+    "sha256": "e2d8ddcde48dd59b784aa74450db7d2eb62e641b68eceac0f490737a32051c0c",
+    "retrieved_utc": "2026-11-06T17:43:06.818077+00:00"
+  },
+  {
+    "file": "samples.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/samples?pageSize=10000&projection=SUMMARY",
+    "rows": 1108,
+    "bytes": 245915,
+    "sha256": "cd63b519e28436533c2bad7a3fe996fb62e61188c461a92f4098ff6b9379d6bd",
+    "retrieved_utc": "2026-11-06T17:43:06.817556+00:00"
+  },
+  {
+    "file": "sample_type.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=SAMPLE&attributeId=SAMPLE_TYPE&pageSize=10000&projection=SUMMARY",
+    "rows": 1108,
+    "bytes": 267051,
+    "sha256": "f129bc651d606b9a68a20e2fe1e79e7adb28c0185c86e2f7b242a0096cf5369c",
+    "retrieved_utc": "2026-11-06T17:43:06.817037+00:00"
+  },
+  {
+    "file": "her2_ihc_score.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=PATIENT&attributeId=HER2_IHC_SCORE&pageSize=10000&projection=SUMMARY",
+    "rows": 622,
+    "bytes": 95790,
+    "sha256": "72a23021b22c0708c3f9a888b6b33ef4dc23adcbc965e795009cc3e97f58fa9f",
+    "retrieved_utc": "2026-11-06T17:43:07.463780+00:00"
+  },
+  {
+    "file": "ihc_her2.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=PATIENT&attributeId=IHC_HER2&pageSize=10000&projection=SUMMARY",
+    "rows": 919,
+    "bytes": 142686,
+    "sha256": "3edc7c1629ee2738b1b535b24288db7b2d177b8042de283fa16e05aaf1dd7e10",
+    "retrieved_utc": "2026-11-06T17:43:07.610412+00:00"
+  },
+  {
+    "file": "erbb2.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna/molecular-data?sampleListId=brca_tcga_all&entrezGeneId=2064&projection=SUMMARY",
+    "rows": 1100,
+    "bytes": 301641,
+    "sha256": "b95d2398d7f51ecb7f46e2cb1dccc80a356a527f475c33dcd60d879c39878f59",
+    "retrieved_utc": "2026-11-06T17:43:07.741876+00:00"
+  },
+  {
+    "file": "tacstd2.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna/molecular-data?sampleListId=brca_tcga_all&entrezGeneId=4070&projection=SUMMARY",
+    "rows": 1100,
+    "bytes": 301411,
+    "sha256": "26be55d1cfa13bb2648f767f9a64399c8ebc8e8acda4391797264f88c59a2d63",
+    "retrieved_utc": "2026-11-06T17:43:07.878687+00:00"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "path": "work/adc_v2/tcga/study.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga",
+    "bytes": 952,
+    "sha256": "9d8a4ea04de98204db613bd64bb189fd0a3c5379caa1308ff550c79e7ece10be",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/profile.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna",
+    "bytes": 766,
+    "sha256": "e2d8ddcde48dd59b784aa74450db7d2eb62e641b68eceac0f490737a32051c0c",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/samples.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/samples?pageSize=10000&projection=SUMMARY",
+    "bytes": 245915,
+    "sha256": "cd63b519e28436533c2bad7a3fe996fb62e61188c461a92f4098ff6b9379d6bd",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/sample_type.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=SAMPLE&attributeId=SAMPLE_TYPE&pageSize=10000&projection=SUMMARY",
+    "bytes": 267051,
+    "sha256": "f129bc651d606b9a68a20e2fe1e79e7adb28c0185c86e2f7b242a0096cf5369c",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/her2_ihc_score.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=PATIENT&attributeId=HER2_IHC_SCORE&pageSize=10000&projection=SUMMARY",
+    "bytes": 95790,
+    "sha256": "72a23021b22c0708c3f9a888b6b33ef4dc23adcbc965e795009cc3e97f58fa9f",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/ihc_her2.json",
+    "url": "https://www.cbioportal.org/api/studies/brca_tcga/clinical-data?clinicalDataType=PATIENT&attributeId=IHC_HER2&pageSize=10000&projection=SUMMARY",
+    "bytes": 142686,
+    "sha256": "3edc7c1629ee2738b1b535b24288db7b2d177b8042de283fa16e05aaf1dd7e10",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/erbb2.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna/molecular-data?sampleListId=brca_tcga_all&entrezGeneId=2064&projection=SUMMARY",
+    "bytes": 301641,
+    "sha256": "b95d2398d7f51ecb7f46e2cb1dccc80a356a527f475c33dcd60d879c39878f59",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/tcga/tacstd2.json",
+    "url": "https://www.cbioportal.org/api/molecular-profiles/brca_tcga_rna_seq_v2_mrna/molecular-data?sampleListId=brca_tcga_all&entrezGeneId=4070&projection=SUMMARY",
+    "bytes": 301411,
+    "sha256": "26be55d1cfa13bb2648f767f9a64399c8ebc8e8acda4391797264f88c59a2d63",
+    "role": "cBioPortal raw API response; all eight required because analyze_tcga.py checks every manifest entry"
+  },
+  {
+    "path": "work/adc_v2/met/GSE209998_AUR_129_UQN.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE209nnn/GSE209998/suppl/GSE209998_AUR_129_UQN.txt.gz",
+    "bytes": 26610210,
+    "sha256": "8428f2652d202dffcc361817af46d58b7ee67135078825c0512658dc19fe4a30",
+    "role": "AURORA expression or sample annotation"
+  },
+  {
+    "path": "work/adc_v2/met/GSE209998_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE209nnn/GSE209998/matrix/GSE209998_series_matrix.txt.gz",
+    "bytes": 9200,
+    "sha256": "c748c1e1832984c583ba231d5ee0d86d213db10cd64decfb5aa6fa056f46c819",
+    "role": "AURORA expression or sample annotation"
+  },
+  {
+    "path": "work/adc_v2/main/gene.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181574/suppl/GSE181574_ISPY2ResID_THP_TDM1P_Ctr_ExpDat_GeneLevel_n127.txt.gz",
+    "bytes": 6563447,
+    "sha256": "6e0d8646f1dd905ac960c9ad62cc8f972bd0002b637d173a3fdb238515b9076c",
+    "role": "I-SPY2 processed gene matrix or platform annotations"
+  },
+  {
+    "path": "work/adc_v2/main/GSE181574-GPL20078_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181574/matrix/GSE181574-GPL20078_series_matrix.txt.gz",
+    "bytes": 7721826,
+    "sha256": "cbeed4dd851abff58508806610e313edb96e7ec625548fe23286958056cdd398",
+    "role": "I-SPY2 processed gene matrix or platform annotations"
+  },
+  {
+    "path": "work/adc_v2/main/GSE181574-GPL30493_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181574/matrix/GSE181574-GPL30493_series_matrix.txt.gz",
+    "bytes": 2210305,
+    "sha256": "999c66d05435a49e0b75eb7604129ae09bd709db52c3d166297d692080273adf",
+    "role": "I-SPY2 processed gene matrix or platform annotations"
+  },
+  {
+    "path": "work/adc_v2/main/41467_2021_26019_MOESM4_ESM.csv",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8571284.1/41467_2021_26019_MOESM4_ESM.csv",
+    "bytes": 16411,
+    "sha256": "f8ef5367bc3cbc9fca0dd835d08226b91bbca6fdf3a546e40f923efbe072a3b0",
+    "role": "I-SPY2 article clinical annotations used for joins"
+  },
+  {
+    "path": "work/adc/source.xlsx",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12852894.1/41467_2025_67840_MOESM13_ESM.xlsx",
+    "bytes": 5855354,
+    "sha256": "0c82f309085bbc0709d681e1bd169438c2593687c9f0f1d92f7698fe8a6b3ca2",
+    "role": "UPTIDER deposited workbook used by all target/sampling calculations"
+  },
+  {
+    "path": "work/adc_v6/public_cohorts/GSE243375_All_Samples_TMM_log2_CPM.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243375/suppl/GSE243375_All_Samples_TMM_log2_CPM.csv.gz",
+    "bytes": 76853228,
+    "sha256": "53c59ad80c3c076d9a3b09ee9b7b3f86fddf58bf5ab41672c152036ac2c73be5",
+    "role": "Independent clinical cohort expression/annotation or supporting-value verification"
+  },
+  {
+    "path": "work/adc_v6/public_cohorts/JCI176454.sdt1.xlsx",
+    "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/176000/176454/JCI176454.sdt1.xlsx",
+    "bytes": 24820,
+    "sha256": "ab4f2b1f9a04dcb05589d5a23ae8e26c10ba84ff11180723a7cfe4d9f0cf9ac2",
+    "role": "Independent clinical cohort expression/annotation or supporting-value verification"
+  },
+  {
+    "path": "work/adc_v6/public_cohorts/JCI176454.sdt3.xlsx",
+    "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/176000/176454/JCI176454.sdt3.xlsx",
+    "bytes": 11573,
+    "sha256": "fe1eb05d2a25f0ac51e0cd08e9989c72af59afefeaa1c23c8fead04b28ab3185",
+    "role": "Independent clinical cohort expression/annotation or supporting-value verification"
+  },
+  {
+    "path": "work/adc_v6/public_cohorts/JCI176454.sdval.xlsx",
+    "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/176000/176454/JCI176454.sdval.xlsx",
+    "bytes": 5538847,
+    "sha256": "8e270d968547df8c665f064bf18707e0358fb1fb84a0b6a58775776c4c1402d8",
+    "role": "Independent clinical cohort expression/annotation or supporting-value verification"
+  },
+  {
+    "path": "work/adc_v6/functional/ccr-25-3321_supplementary_table_1_suppst_1.xlsx",
+    "url": "https://ndownloader.figshare.com/files/65637447",
+    "bytes": 11696,
+    "sha256": "7df4f96154964f6db87d82434cd958fa7279355e1baa45df5cf06f95ba4ae025",
+    "role": "Tables1/3 contain analyzed values; all five required unchanged because analyze_functional.py hashes all five"
+  },
+  {
+    "path": "work/adc_v6/functional/ccr-25-3321_supplementary_table_2_suppst_2.xlsx",
+    "url": "https://ndownloader.figshare.com/files/65637444",
+    "bytes": 12439,
+    "sha256": "eddb450dc3b29a4cb09b15bc1e55216830b8964f5b242903a733ae7f1552135c",
+    "role": "Tables1/3 contain analyzed values; all five required unchanged because analyze_functional.py hashes all five"
+  },
+  {
+    "path": "work/adc_v6/functional/ccr-25-3321_supplementary_table_3_suppst_3.xlsx",
+    "url": "https://ndownloader.figshare.com/files/65637441",
+    "bytes": 11615,
+    "sha256": "6ef758aed2cddc9c0b860e357b34aac966ddee374681af6ee4444e7512b74e89",
+    "role": "Tables1/3 contain analyzed values; all five required unchanged because analyze_functional.py hashes all five"
+  },
+  {
+    "path": "work/adc_v6/functional/ccr-25-3321_supplementary_table_4_suppst_4.xlsx",
+    "url": "https://ndownloader.figshare.com/files/65637438",
+    "bytes": 14309,
+    "sha256": "aad3348214730de91944989dd6aa4219928546a5885103f0e46973a5e789009a",
+    "role": "Tables1/3 contain analyzed values; all five required unchanged because analyze_functional.py hashes all five"
+  },
+  {
+    "path": "work/adc_v6/functional/ccr-25-3321_supplementary_table_5_suppst_5.xlsx",
+    "url": "https://ndownloader.figshare.com/files/65637435",
+    "bytes": 16627,
+    "sha256": "a556afd12423f645c917613cdab128dc74d1533615ac402f9c14fde186cae165",
+    "role": "Tables1/3 contain analyzed values; all five required unchanged because analyze_functional.py hashes all five"
+  }
+]
